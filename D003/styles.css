@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700;300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p, h1, a {
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(4, 5, 46), rgba(4, 5, 46, 0.9));
+  font-family: "Quicksand";
+  height: 74vh;
+}
+
+main {
+  background-color: rgb(30, 36, 66);
+  width: 300px;
+  height: 510px;
+  margin: auto;
+  margin-top: 130px;
+  padding-top: 1px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(4, 5, 46, 0.3);
+}
+
+img {
+  display: block;
+  width: 257px;
+  height: 257px;
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-left: 21px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255, 0.9)
+}
+
+p {
+  margin-left: 21px;
+  margin-top: 18px;
+  width: 275px;
+  font-size: 16px;
+  color: rgba(200, 241, 243, 0.7);
+  font-weight: bold;
+}
+
+table {
+  margin-left: 21px;
+  margin-top: 12px;
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: rgba(115, 210, 222, 0.9);
+}
+
+.foto, .foto2 {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+.c1 {
+  width: 90px;
+  height: 0px;
+}
+
+.foto2 {
+  margin-left: 36px;
+}
+
+.c2 {
+  text-align: right;
+}
+
+.linha {
+  background-color: rgba(39, 76, 119, 0.5);
+  height: 2px;
+  width: 257px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.tabela2 {
+  margin-left: 21px;
+  width: 257px;
+  margin-top: 0px;
+}
+
+.criadora {
+  display: inline;
+  width: 45px;
+  height: 45px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.td2 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(200, 241, 243, 0.7);
+  padding-top: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+}
