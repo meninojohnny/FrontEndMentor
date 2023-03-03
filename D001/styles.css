@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  width: 370px;
+  height: 260px;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.esquerda {
+  background-image: linear-gradient(to bottom, #5B39C6, blue);
+  border-radius: 20px;
+  width: 185px;
+  height: 240px;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.p2 {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  margin-left: 24px;
+}
+
+.circulo {
+  /*background-color: darkblue;*/
+  background: rgba(58, 12, 163, 0.60);
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  margin: auto;
+  text-align: center;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.circulo h1 {
+  padding-top: 25px;
+}
+
+.circulo p {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+}
+
+h1.baixo {
+  padding-top: 120px;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+p.baixo {
+  font-size: 12px;
+  width: 150px;
+  font-weight: bold;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.direita {
+  border-radius: 20px 20px 20px 20px;
+  width: 185px;
+  height: 240px;
+  position: absolute;
+  top: 0px;
+  left: 185px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+  /*background-color: aqua;*/
+  font-size: 12px;
+  width: 140px;
+  margin: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.caixa1 {
+  background-color: rgba(255, 32, 110, 0.1);
+  color: rgba(137, 2, 62, 0.7)
+}
+
+.caixa2 {
+  background-color: rgba(247, 219, 167, 0.3);
+  color: rgb(222, 158, 54);
+}
+
+.caixa2 .c2 {
+  padding-left: 13px;
+}
+
+.caixa3 {
+  background-color: rgba(22, 219, 101, 0.1);
+  color: rgb(5, 140, 66);
+}
+
+.caixa3 .c2 {
+  padding-left: 22px;
+}
+
+*.caixa4 {
+  background-color: rgba(228, 217, 255, 0.4);
+  color: rgb(39, 52, 105)
+}
+
+.caixa4 .c2 {
+  padding-left: 23px;
+}
+
+table {
+  font-size: 1em;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.c2 {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.c3 {
+  padding-left: 2px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.botao {
+  background-color: rgb(30, 39, 73);
+  font-size: 13px;
+  padding: 7px;
+  width: 130px;
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
