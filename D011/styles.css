@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  text-shadow: 0.3px 0px 0px rgb(0,0,0,0.9);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 21, 21);
+  color: white;
+}
+
+main {
+  background-color: rgb(31, 34, 50);
+  width: 330px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+
+.estrela {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(52, 58, 64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin-top: 20px;
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.bloco1 p {
+  font-size: 15px;
+  line-height: 1.4em;
+  margin-top: 15px;
+  text-align: justify;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.classifi {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.classifi button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1em;
+  background-color: rgb(73, 80, 87);
+  color: rgb(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 0px rgb(0,0,0,0.5);
+}
+
+.classifi button:hover {
+  background-color: rgb(108, 117, 125);
+  transform: translate(0px, -2px);
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(235, 100, 36, 0.9);
+  color: rgb(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 0px rgb(0,0,0,0.1);
+  font-weight: 900;
+}
+
+.submit:hover {
+  transform: translateY(-1px);
+  transition: 0.1s;
+}
+
+.bloco1 {
+  display: block;
+}
+
+.bloco2 {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco2 img {
+  width: 130px;
+}
+
+.bloco2 h4 {
+  padding: 10px;
+  background-color: rgb(52, 58, 64);
+  border-radius: 20px;
+  font-size: 15px;
+  color: rgba(251, 133, 0, 0.9);
+}
+
+.bloco2 h2 {
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.bloco2 p {
+  color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 14px;
+}
