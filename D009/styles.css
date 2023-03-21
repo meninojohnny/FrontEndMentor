@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #14213d;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 20px;
+  justify-content: center;
+  height: 100%;
+  text-shadow: 0.1px 0px 0px rgba(0, 0, 0, 0.534);
+}
+
+.maior1 {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.8);
+  gap: 15px;
+}
+
+.maior2 {
+  display: flex;
+}
+
+.menor1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.menor2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+}
+
+.autor {
+  display: flex;
+  gap: 8px;
+}
+
+.autor img {
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 3px black;
+}
+
+strong {
+  font-size: 17px;
+}
+
+#bloco h3 {
+  font-size: 12px;
+}
+
+#bloco h2 {
+  font-size: 15px;
+}
+
+#bloco p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bloco1 {
+  background-color: rgb(93, 11, 147);
+  width: 40vw;
+  height: 40vh;
+}
+
+.bloco2 {
+  background-color: #384449;
+  width: 20vw;
+  height: 40vh;
+}
+
+.bloco3 {
+  background-color: rgb(213, 218, 228);
+  width: 20vw;
+  height: 40vh;
+  color: black;
+}
+
+.bloco4 {
+  background-color: rgb(10, 17, 31);
+  width: 40vw;
+  height: 40vh;
+}
+
+.bloco5 {
+  background-color: rgb(213, 218, 228);
+  border-radius: 5px;
+  width: 20vw;
+}
