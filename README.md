@@ -25,8 +25,5 @@
 # D009:
 # https://meninojohnny.github.io/FrontEndMentor/D009/
 
-# D010:
-# https://meninojohnny.github.io/FrontEndMentor/D010/
-
 # D011:
 # https://meninojohnny.github.io/FrontEndMentor/D011/
